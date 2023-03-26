@@ -1,1 +1,50 @@
 // Specific CSS for your home-page
+#home {
+  background-color : #FFEEEF;
+
+  h1 {
+    font-family: 'Pacifico';
+    font-weight: 400;
+    font-size: 73px;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .hello {
+    margin-top: 12%;
+  }
+
+  h2 {
+    font-family: 'Quicksand';
+    font-weight: 400;
+    font-size: 43px;
+    margin-top: 3%;
+  }
+
+  .fa-envelope, .fa-github-alt, .fa-linkedin {
+    color: black;
+    font-size: 60px;
+    margin-top: 4%;
+  
+  }
+
+  .insta {
+    width: 72px;
+    right: -4%;
+    position: absolute;
+  }
+
+  .icons {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 2%;
+    bottom: 10%;
+    margin-bottom: 4%;
+  }
+
+
+}
