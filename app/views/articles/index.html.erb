@@ -1,14 +1,17 @@
-<p style="color: green"><%= notice %></p>
+<div id="index">
+  <h3>Melbourne/Remote</h3>
+  <h3>English/French</h3>
 
-<h1>Articles</h1>
-
-<div id="articles">
-  <% @articles.each do |article| %>
-    <%= render article %>
-    <p>
-      <%= link_to "Show this article", article %>
-    </p>
-  <% end %>
+  <h2>About me</h2>
+  <div class="photo-description">
+    <%= image_tag "me.jpg", class: "me" %>
+      <div class="bio">
+        <p>Hello world! I’m a french full-stack developer based in Melbourne.
+        <br>
+        After working for 3 years as a social worker, mainly with asylum seekers and refugees I left France to travel in Australia. The country closed its borders on month after my arrival and I stayed there for 3 years working as a tractor operator and traveling around in my van.
+        One day, I was listening to a podcast about a guy who learned how to code doing a coding bootcamp with Le Wagon. Something clicked in me and I new immediately I wanted to do the same thing.
+        <br>
+        The bootcamp was an amazing experience and I immediately enjoyed coding. I love creating the aesthetic of a website but also working on the logic of the back-end. I graduate arch 2023 from Le Wagon Bali and I am now looking for my first job as a developer.  I am a highly motivated and adaptable individual
+      </div>
+  </div>
 </div>
-
-<%= link_to "New article", new_article_path %>

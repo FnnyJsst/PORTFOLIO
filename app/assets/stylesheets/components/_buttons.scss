@@ -1,13 +1,37 @@
-.button-enter {
-  position: absolute;
-  width: 209px;
-  height: 58px;
+.button-enter, .button-contact {
   border-radius: 15px;
   border: 1px solid black;
+  background-color: $pink;
+  position: absolute;
+}
+
+.button-enter {
+  width: 209px;
+  height: 58px;
   font-size: 34px;
   left: 0%;
   top: -7%;
-  background-color: #FFEEEF;
+}
+
+.button-contact {
+  font-family: 'QuickSand';
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 0.5%;
+  position: absolute;
+  right: 13.25%;
+  margin-right: -9.85%;
+}
+
+.button-shadow-contact {
+  margin-top: 1%;
+  margin-right: -9%;
+}
+
+
+.button-contact, .button-shadow-contact {
+  width: 168px;
+  height: 45px;
 }
 
 a.button-enter {
@@ -16,15 +40,18 @@ a.button-enter {
   padding-left: 27%;
 }
 
-.button-shadow {
+.button-shadow, .button-shadow-contact {
+  background-color: black;
+  border-radius: 15px;
   position: relative;
+}
+
+.button-shadow {
   width: 209px;
   height: 58px;
   left: 559px;
   top: 577px;
-  background-color: black;
   left: 41%;
-  border-radius: 15px;
   top: 0%;
   margin-top: 5%
 }

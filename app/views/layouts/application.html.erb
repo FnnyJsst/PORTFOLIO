@@ -8,9 +8,24 @@
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
+    
   </head>
 
   <body>
+    <% if current_page?(root_path) %>
+      <%= yield %>
+    <% else %>
+    <nav class="navbar">
+      <h1 class="name">Fanny</h1>
+      <h2>About me</h2>
+      <h2>Education</h2>
+      <h2>Skills</h2>
+      <h2>Portfolio</h2>
+      <div class="button-shadow-contact">
+      </div>
+        <button type="button" class="button-contact">Contact me</button>
+    </nav>
     <%= yield %>
+  <% end %>
   </body>
 </html>

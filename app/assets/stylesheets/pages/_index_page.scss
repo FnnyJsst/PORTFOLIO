@@ -1,0 +1,42 @@
+#index {
+  margin-top: 4%;
+  margin-left: 4%;
+
+  h3 {
+    font-size: 19px;
+    font-family: 'quicksand';
+    font-weight: 400;
+  }
+
+  h2 {
+    font-family: 'Pacifico';
+    font-size: 32px;
+    margin-left: 42%;
+  }
+
+  .photo-description {
+    display: flex;
+    flex-direction: row;
+  }
+
+  img {
+    border-radius: 30px;
+    width: 296px;
+    height: 363.2px;
+    object-fit: cover;
+    margin-left: 4%;
+    border: 1px solid black;
+
+  }
+
+  p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    width: 50%;
+    margin-left: 7%;
+  }
+
+  
+
+
+}
