@@ -1,3 +1,20 @@
 #education {
-  
+  h2 {
+    font-family: 'Pacifico';
+    font-size: 32px;
+    margin-left: 19%;
+    margin-bottom: 4%;
+    margin-top: 7%;
+  }
+
+  .date-experience {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: -5%;
+  }
+
+  p {
+    margin-top: 5%;
+    margin-left: 4%;
+  }
 }

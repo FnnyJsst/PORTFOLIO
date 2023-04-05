@@ -78,13 +78,14 @@ a.button-enter {
 }
 
 .button-year, .button-year-shadow {
-  width: 65px;
+  width: 72px;
+  margin-top: -3%;
 }
 
 .button-year-shadow {
-  width: 65px;
   position: relative;
-  height: -5%;
-  margin-top: 0%;
+  height: 28px;
   margin-bottom: 5%;
+  margin-left: 11%;
+  margin-top: 5%;
 }
