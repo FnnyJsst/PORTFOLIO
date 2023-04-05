@@ -40,7 +40,7 @@ a.button-enter {
   padding-left: 27%;
 }
 
-.button-shadow, .button-shadow-contact {
+.button-shadow, .button-shadow-contact, .button-download-shadow {
   background-color: black;
   border-radius: 15px;
   position: relative;
@@ -57,11 +57,21 @@ a.button-enter {
 }
 
 .button-download, .button-download:hover {
-  left: 49%;
-  top: 302%;
   text-decoration: none;
   color: black;
-  font-size: 19px;
-  width: 168px;
-  height: 45px;
+  position: absolute !important;
+  padding-top: 2.5%;
+  padding-left: 3%;
+  top: 87%;
+  width: 181px;
+  height: 38px;
+  margin-top: -20%;
+}
+
+
+.button-download-shadow {
+  left: 48%;
+  width: 181px;
+  height: 38px;
+  margin-top: 2%;
 }
