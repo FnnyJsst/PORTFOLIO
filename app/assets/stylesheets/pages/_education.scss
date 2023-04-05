@@ -1,4 +1,11 @@
 #education {
+
+  .education-experience {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  }
+
   h2 {
     font-family: 'Pacifico';
     font-size: 32px;
@@ -7,13 +14,27 @@
     margin-top: 7%;
   }
 
+  .education-title {
+    margin-left: 19%;
+    margin-bottom: 4%;
+    margin-top: 15%;
+  }
+
   .date-experience {
     display: flex;
     flex-direction: row;
     margin-bottom: -5%;
+
   }
 
-  p {
+  .date-education {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: -14%;
+    margin-top: 12%;
+  }
+
+  education p {
     margin-top: 5%;
     margin-left: 4%;
   }
