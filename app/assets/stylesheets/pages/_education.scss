@@ -6,11 +6,13 @@
     margin-left: 3%;
   }
 
-  // .dates {
-  //   display: flex;
-  //   flex-direction: column;
-  //   justify-content: space-between;
-  // }
+  .experience-title {
+    margin-left: 35%;
+  }
+
+  .experience-description {
+    margin-left: 4%;
+  }
 
   .button-year-shadow {
     position: relative;
@@ -29,8 +31,15 @@
   }
 
   .dates-experience {
+    display: flex;
+    flex-direction: row;
     margin-left: 18%;
-    
+
+  }
+
+  .date {
+    display: flex;
+    flex-direction: column;
   }
 
 
