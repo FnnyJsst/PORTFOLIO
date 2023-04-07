@@ -1,10 +1,44 @@
 #education {
 
-  .education-experience {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  .date-description {
+    display: flex;
+    flex-direction: row;
+    margin-left: 3%;
   }
+
+  // .dates {
+  //   display: flex;
+  //   flex-direction: column;
+  //   justify-content: space-between;
+  // }
+
+  .button-year-shadow {
+    position: relative;
+    height: 28px;
+    margin-bottom: 46%;
+    margin-left: 11%;
+  }
+
+  .education-description {
+    margin-left: 2%;
+  }
+
+  .titles {
+    display: flex;
+    flex-direction: rows;
+  }
+
+  .dates-experience {
+    margin-left: 18%;
+    
+  }
+
+
+  // .education-experience {
+  // display: flex;
+  // flex-direction: row;
+  // justify-content: space-around;
+  // }
 
   h2 {
     font-family: 'Pacifico';
@@ -12,30 +46,31 @@
     margin-left: 19%;
     margin-bottom: 4%;
     margin-top: 7%;
-  }
+   }
 
-  .education-title {
-    margin-left: 19%;
-    margin-bottom: 4%;
-    margin-top: 15%;
-  }
+  // .education-title {
+  //   margin-left: 19%;
+  //   margin-bottom: 4%;
+  //   margin-top: 15%;
+  // }
 
-  .date-experience {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: -5%;
+  // .date-experience {
+  //   display: flex;
+  //   flex-direction: row;
+  //   margin-bottom: -5%;
 
-  }
+  // }
 
-  .date-education {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: -14%;
-    margin-top: 12%;
-  }
+  // .date-education {
+  //   display: flex;
+  //   flex-direction: row;
+  //   margin-bottom: -14%;
+  //   margin-top: 12%;
+  // }
 
-  education p {
-    margin-top: 5%;
-    margin-left: 4%;
-  }
+  // .p-educ {
+  //   margin-top: 0;
+  //   margin-bottom: 1rem;
+  //   margin-left: 5%;
+  // }
 }
