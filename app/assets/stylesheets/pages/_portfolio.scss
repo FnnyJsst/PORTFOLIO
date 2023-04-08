@@ -24,5 +24,35 @@
     border: 1px solid;
   }
 
- 
+  h4 {
+    font-family: 'Quicksand';
+    margin-left: 44%;
+    margin-top: 3%;
+  }
+
+  .description-stack {
+    display: flex;
+    flex-direction: column;
+  }
+
+  p {
+    font-family: 'Quicksand';
+    font-size: 19px;
+    font-weight: 400;
+    margin-top: 1.5%;
+    margin-bottom: 1rem;
+    margin-left: 44%;
+    width: 33%;
+  }
+
+  .stack {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .html-stack, .sass-stack, .js-stack, .rails-stack {
+    width: 3%;
+    padding-left: 0.5%;
+  }
 }
