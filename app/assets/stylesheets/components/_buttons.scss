@@ -126,6 +126,16 @@ a.button-code {
 
 .github-button, .view {
   width: 32%;
-  margin-left: -33%;
+  margin-left: -29%;
   margin-top: 2%;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  margin-top: -56%;
+}
+
+.button-text {
+  margin-left: 14%;
 }
