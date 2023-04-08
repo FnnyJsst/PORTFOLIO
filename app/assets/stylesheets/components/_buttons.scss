@@ -34,7 +34,7 @@
   height: 45px;
 }
 
-a.button-enter {
+a.button-enter, a.button-code {
   text-decoration: none;
   color: black;
   padding-left: 27%;
@@ -92,4 +92,34 @@ a.button-enter {
 
 .dates-experience {
   margin-left: 18%;
+}
+
+.button-code {
+  width: 209px;
+  height: 58px;
+  font-size: 34px;
+  left: 0%;
+  top: -7%;
+  border-radius: 15px;
+  border: 1px solid black;
+  background-color: $pink;
+  position: absolute;
+}
+
+a.button-code {
+  font-size: 16px;
+}
+
+.button-code-shadow {
+  background-color: black;
+  border-radius: 15px;
+  position: relative;
+  width: 209px;
+  height: 58px;
+  left: 559px;
+  top: 577px;
+  left: 41%;
+  top: 0%;
+  margin-top: 5%;
+  margin-left: 3%;
 }
