@@ -139,3 +139,29 @@ a.button-code {
 .button-text {
   margin-left: 14%;
 }
+
+
+.form-container input[type="submit"] {
+  display: block;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: $pink !important;
+  color: black !important;
+  border-radius: 15px;
+  margin-left: 0%;
+  position: absolute;
+  width: 209px;
+  height: 58px;
+  margin-top: -2%;
+}
+
+.button-shadow-submit {
+  background-color: black;
+  border-radius: 15px;
+  position: relative;
+  width: 209px;
+  height: 58px;
+  left: 41%;
+  margin-top: 5%;
+  margin-left: 1%;
+}

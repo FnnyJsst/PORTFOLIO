@@ -1,0 +1,36 @@
+#new {
+  h2 {
+    font-size: 32px;
+    font-family: 'Pacifico';
+    margin-left: 47%;
+    margin-top: 6%;
+    margin-bottom: 5%;
+  }
+
+  .input-name {
+    margin-left: 30%;
+    width: 50%;
+    height: 52px;
+    border-radius: 15px;
+  }
+
+  .form-container input[type="text"],
+  .form-container input[type="email"],
+  .form-container textarea {
+    display: block;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 15px !important;
+    background-color: $pink !important;
+    width: 50%;
+    margin-left: 26%;
+  }
+
+  .form-container input[type="text"].input-name::placeholder,
+  .form-container input[type="email"]::placeholder,
+  .form-container textarea::placeholder {
+
+  }
+
+}

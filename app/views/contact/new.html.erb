@@ -1,0 +1,21 @@
+<div id="new">
+  <h2>Contact</h2>
+  <div class="form-container">
+  <%= form_with url: contact_index_path, method: :post do |form| %>
+    <div>
+      <%= form.text_field :name, input_html: {class: 'input-name', placeholder: "Your name" } %>
+    </div>
+
+    <div>
+      <%= form.email_field :email %>
+    </div>
+
+    <div>
+      <%= form.text_area :message %>
+    </div>
+    <div class="button-shadow-submit">
+      <%= form.submit "Send" %>
+    </div>
+  <% end %>
+  </div>
+</div>

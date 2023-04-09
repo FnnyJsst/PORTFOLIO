@@ -5,7 +5,8 @@ Rails.application.routes.draw do
   get '/education', to: 'pages#education'
   get '/skills', to: 'pages#skills'
   get '/portfolio', to: 'pages#portfolio'
-  get '/contact', to: 'pages#contact'
+  get '/contact/new', to: 'contact#new'
+  post '/contact', to: 'contact#create', as: 'contact_index'
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # Defines the root path route ("/")
