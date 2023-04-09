@@ -19,7 +19,13 @@
     background-color: $pink !important;
     width: 50%;
     margin-left: 26%;
+    margin-bottom: 3%;
   }
+
+  .form-container textarea {
+    height: 100px;
+  }
+  
   .form-container input[type="name"]::placeholder {
     color: black !important;
   }
