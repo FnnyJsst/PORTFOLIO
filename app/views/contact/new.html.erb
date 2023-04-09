@@ -3,15 +3,13 @@
   <div class="form-container">
   <%= form_with url: contact_index_path, method: :post do |form| %>
     <div>
-      <%= form.text_field :name, input_html: {class: 'input-name', placeholder: "Your name" } %>
+      <%= form.text_field :name, placeholder: 'Your name', label:false %>
     </div>
-
     <div>
-      <%= form.email_field :email %>
+      <%= form.email_field :email, placeholder: 'Your email adress', label:false %>
     </div>
-
     <div>
-      <%= form.text_area :message %>
+      <%= form.text_area :message, placeholder: 'Your message', label:false %>
     </div>
     <div class="button-shadow-submit">
       <%= form.submit "Send" %>

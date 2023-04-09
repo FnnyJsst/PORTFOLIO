@@ -7,13 +7,7 @@
     margin-bottom: 5%;
   }
 
-  .input-name {
-    margin-left: 30%;
-    width: 50%;
-    height: 52px;
-    border-radius: 15px;
-  }
-
+  .form-container input[type="name"],
   .form-container input[type="text"],
   .form-container input[type="email"],
   .form-container textarea {
@@ -26,11 +20,13 @@
     width: 50%;
     margin-left: 26%;
   }
-
-  .form-container input[type="text"].input-name::placeholder,
-  .form-container input[type="email"]::placeholder,
-  .form-container textarea::placeholder {
-
+  .form-container input[type="name"]::placeholder {
+    color: black !important;
   }
 
+  .form-container input[type="text"]::placeholder,
+  .form-container input[type="email"]::placeholder,
+  .form-container textarea::placeholder {
+    color: black !important;
+  }
 }
