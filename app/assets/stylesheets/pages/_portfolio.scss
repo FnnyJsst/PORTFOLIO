@@ -14,12 +14,29 @@
     font-weight: 400;
   }
 
+  // .travelpals {
+  //   vertical-align: middle;
+  //   width: 26%;
+  //   margin-left: 14%;
+  //   border-radius: 25px;
+  //   border: 1px solid;
+  // }
+
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    margin-top: -557px;
+  }
+
   .travelpals {
     vertical-align: middle;
-    width: 26%;
-    margin-left: 14%;
+    width: 340px;
+    margin-left: 13%;
     border-radius: 25px;
     border: 1px solid;
+    height: 631px;
+    object-fit: cover;
+    margin-top: -113px;
   }
 
   h3, h4, p {

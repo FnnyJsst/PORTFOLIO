@@ -12,6 +12,12 @@
   </head>
 
   <body>
+    <div class="container">
+      <br>
+      <% flash.each do |key, message| %>
+      <p class="alert alert-<%= key %>"><%= message %></p>
+      <% end %>
+    </div>
     <% if current_page?(root_path) %>
       <%= yield %>
     <% else %>
